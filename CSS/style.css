@@ -5,6 +5,19 @@
   cursor: pointer;
   color: blue;
 }
+.clickable2 {
+    cursor: pointer;
+    color: red;
+}
 .clickable:hover {
   text-decoration: underline;
+}
+
+#hide-text {
+  display: none;
+}
+
+#show-text {
+  color: red;
+  display: none;
 }
