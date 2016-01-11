@@ -2,11 +2,16 @@
 <html>
   <head>
     <script src="js/jquery-1.12.0.js"></script>
-      <script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <meta charset="utf-8">
     <title>jQuery Trials</title>
   </head>
   <body>
+  <div class="container">
+
+
     <h1>jQuery Trials</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -17,6 +22,16 @@
       <li>Dogs</li>
       <li>Pigs</li>
     </ul>
-    <p><img src="https://s-media-cache-ak0.pinimg.com/236x/57/c9/27/57c927e028be951c4905eba0f51614bd.jpg" alt="a picture of teacup pigs"></p>
+
+    <div id="initially-hidden">
+    <p>Click <span class="clickable">here</span> to see really cute pigs!</p>
+    </div>
+
+    <div id="initially-showing">
+    <p>Click <span class="clickable">here</span> to not see really cute pigs!</p>
+    <img src="https://s-media-cache-ak0.pinimg.com/236x/57/c9/27/57c927e028be951c4905eba0f51614bd.jpg" alt="a picture of teacup pigs">
+    </div>
+
+  </div>
   </body>
 </html>
